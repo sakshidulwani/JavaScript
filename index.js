@@ -1,13 +1,5 @@
-  
-let person = {
-    name: 'Sakshi',
-    age: 20
-};
+function greet (name , lastName) {
+    console.log('Hello ' + name + ' ' + lastName);
+}
 
-person.name= 'Sakshi';
-
-
-let selection = 'name';
-person[selection] = 'Dulwani';
-
-console.log(person.name);
+greet('John', 'Smith');
