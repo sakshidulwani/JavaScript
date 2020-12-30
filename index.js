@@ -1,2 +1,6 @@
+  
+function greet (name , lastName) {
+    console.log('Hello ' + name + ' ' + lastName);
+}
 
-console.log('Hello World');
+greet('John', 'Smith');
