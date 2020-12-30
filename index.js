@@ -10,4 +10,4 @@ person.name= 'Sakshi';
 let selection = 'name';
 person[selection] = 'Dulwani';
 
-console.log(person.name)
+console.log(person.name);
