@@ -1,2 +1,5 @@
+let highIncome  = false ;
+let goodCreditScore = true;
+let eligibleForLoan = highIncome || goodCreditScore;
 
-console.log( true && false)
+console.log(eligibleForLoan);
