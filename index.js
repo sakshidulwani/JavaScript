@@ -1,8 +1,7 @@
 
-let x = 50;
+console.log( 1 === 1);
+console.log('1' === 1);
 
-x= x+5;
-x += 5;
-
-x = x*3;
-x *= 3;
+console.log (1 == 1);
+console.log('1' == 1);
+console.log(true == 1);
