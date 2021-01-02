@@ -1,4 +1,4 @@
-// If a customer has more than 100 points
+
 
 
 
