@@ -1,6 +1,6 @@
 
-let x = 20;
-let y = 5;
+let x = 30;
+let y = 30;
 
 console.log(x + y);
 console.log(x - y);
