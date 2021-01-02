@@ -1,15 +1,8 @@
 
-let x = 50;
-let y = 10;
+let x = 10;
 
-console.log(x + y);
-console.log(x - y);
-console.log(x * y);
-console.log(x / y);
-console.log(x % y);
-console.log(x **y);
+x= x+5;
+x +=5;
 
-console.log(x++);
-console.log(x);
-
-console.log(--x)
+x = x*3;
+x *= 3;
