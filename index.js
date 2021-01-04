@@ -5,4 +5,7 @@ const executePermission = 2;
 
 let myPermission = 0;
 myPermission = myPermission | readPermission | writePermission;
-console.log(myPermission);
+
+let message = (myPermission & readPermission) ? "yes" : "no";
+
+console.log(message);
