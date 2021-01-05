@@ -1,5 +1,5 @@
 
-const output = fizzBuzz(5);
+const output = fizzBuzz(false);
 console.log(output);
 
 function fizzBuzz(input) {
