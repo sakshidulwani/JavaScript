@@ -2,7 +2,8 @@
 const output = fizzBuzz(20);
 console.log(output);
 
-function fizzBuzz(input) {
+function fizzBuzz(input)
+ {
     if(typeof input !== "number")
     return NaN;
     
@@ -14,7 +15,6 @@ function fizzBuzz(input) {
 
     if(input % 5 === 0)
     return "Buzz";
-
 
     return input;
 }
